@@ -26,3 +26,9 @@ function GuardarLocalStorage(nombre,correo,mensaje) {
     localStorage.setItem('Correo',correo)
     localStorage.setItem('Mensaje',mensaje)
 }
+
+function ListarData(params) {
+    let nombreUsu = localStorage.getItem('Nombre')
+    let correoUsu = localStorage.getItem('Nombre')
+    let mensajeUsu = localStorage.getItem('Nombre')
+}
