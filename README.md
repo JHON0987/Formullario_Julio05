@@ -1,7 +1,7 @@
 # Proyecto de media tecnica
 
 ## Tema:
-**HTML, CSS y JavaScript** 
+**HTML, CSS y JavaScript**
 
 ## Integrantes:
 1. **Kelly Xiomara Velez Cañas** Grado 11-2
