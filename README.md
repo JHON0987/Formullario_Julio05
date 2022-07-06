@@ -1,6 +1,6 @@
 # Proyecto de media tecnica
 
-## Tema
+## Tema:
 **HTML, CSS y JavaScript** 
 
 ## Integrantes:
