@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-image: url(http://www.solofondos.com/wp-content/uploads/2015/11/Fondos-para-paginas-web-grandes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav{
+    background-color: rgba(128, 128, 128, 0.37);
+    width: 100%;
+}
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.lista a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px 50px  ;
+}
+.menu .lista{
+    display: inline-block;
+}
+.lista-r{
+    float: right;
+}
+.lista a:hover{
+    background-color: rgba(95, 235, 235, 0.514);
+    color: black;
+}
+main{
+    text-align: center;
+    margin-top: 100px;
+    
+}
+img{
+    margin-top: 10px;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+     border: 5px solid white;
+}
+p{
+    font-size: 26px;
+    margin: 15px;
+    font-weight: 600;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+    margin: 5px;
+     background-color: rgba(20, 20, 121, 0.5);
+     color: white;
+}
+label{
+    font-size: 22px;
+    font-weight: 600;
+}
+#textarea{
+    border: 0;
+    font-size: 18px;
+    margin: 5px;
+    background-color: rgba(20, 20, 121, 0.5);
+    color: white;
+}
+button[type="submit"]{
+    background: rgba(69, 210, 235, 0.849);
+    color: rgb(255, 255, 255);
+    padding: 9px;
+    font-family: 20px;
+    font-weight: 800;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.i{
+    display: inline-block;
+}
+.s{
+    width: 42%;
+}
+.o{
+    width: 54%;
+}
+.d{
+    float: right;
+}
+.u{
+    width: 36%;
+}
+input::placeholder{
+    color: rgb(148, 148, 148);
+}
+input:focus{
+    outline-color: blue;
+    background-color: rgba(44, 44, 202, 0.5);
+}
+.formulario{
+    padding: 1%;
+    width: 50%;
+    height: auto;
+    background-color: rgba(137, 137, 245, 0.856);
+    text-align: left;
+    margin: auto;
+    border-radius: 10px;
+}
+input.f{
+    background-color: rgb(134, 255, 255);
+    color: black;
+    border-radius: 10px;
+    width: 99%;
+}
+input.f::placeholder{
+    color: rgb(104, 102, 102);
+}
+input.f:focus{
+    background-color: rgb(160, 251, 251);
+    outline-color: black;
+}
+.a{
+    margin-left: 40px;
+}
+.b{
+    margin-top:25px ;
+    text-align: center;
+}
